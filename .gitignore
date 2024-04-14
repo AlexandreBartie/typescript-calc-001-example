@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+
+# TypeScript
+*.js
+*.js.map
+
+# Build output
+dist/
+
+# Visual Studio Code
+.vscode/
+
+# Editor configuration
+*.editorconfig
+*.sublime-project
+*.sublime-workspace
+
+# IDE files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
