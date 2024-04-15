@@ -1,5 +1,5 @@
 {
-  "name": "typescript-calc-master-example",
+  "name": "typescript-calc-ultra-example",
   "version": "1.0.0",
   "description": "A simple TypeScript library for basic arithmetic operations",
   "main": "./dist/index.js",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlexandreBartie/typescript-calc-master-example.git"
+    "url": "https://github.com/AlexandreBartie/typescript-calc-ultra-example.git"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
