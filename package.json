@@ -1,6 +1,6 @@
 {
-  "name": "typescript-library-example",
-  "version": "1.0.2",
+  "name": "typescript-calc-library-example",
+  "version": "0.0.1",
   "description": "A simple TypeScript library for basic arithmetic operations",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlexandreBartie/typescript-library-example.git"
+    "url": "https://github.com/AlexandreBartie/typescript-calc-library-example.git"
   },
   "devDependencies": {
     "typescript": "^5.4.5"
