@@ -1,11 +1,12 @@
 {
-  "name": "typescript-calc-library-example",
-  "version": "0.0.1",
+  "name": "typescript-calc-master-example",
+  "version": "1.0.0",
   "description": "A simple TypeScript library for basic arithmetic operations",
-  "main": "./dist/src/index.js",
-  "types": "./dist/src/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "npx tsc",
+    "prepublishOnly": "npm run build",
     "publish": "npm publish"
   },
   "keywords": [
@@ -17,9 +18,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlexandreBartie/typescript-calc-library-example.git"
+    "url": "https://github.com/AlexandreBartie/typescript-calc-master-example.git"
   },
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
 }
