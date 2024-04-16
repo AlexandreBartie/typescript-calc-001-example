@@ -1,4 +1,4 @@
-import { Calc } from './classes/calc';
-import { AnotherClass } from './classes/other';
+export { Calc } from './classes/calc';
+export * from './classes/other';
 
-export { Calc, AnotherClass };
+export { sayHello, sayGoodbye } from './messages'
